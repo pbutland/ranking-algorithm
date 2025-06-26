@@ -19,8 +19,8 @@ Below are responses from various AI models to the above prompt:
 ### Large Language Model Responses
 - [Claude 3.7 Response](responses/claude-3.7-ranking.md)
 
-### Additional Resources
-- [Original Prompt](_includes/ranking-prompt.md)
+### Resources
+- [Original Prompt](https://github.com/petebutland/ranking-algorithm/blob/main/_includes/ranking-prompt.md)
 - [Project Overview](README.md)
 
 ## Purpose

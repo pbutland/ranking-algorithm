@@ -7,7 +7,6 @@ plugins:
   - jekyll-optional-front-matter
   - jekyll-readme-index
   - jekyll-titles-from-headings
-  - jekyll-relative-links
 
 # Markdown settings
 markdown: kramdown
