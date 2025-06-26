@@ -18,8 +18,13 @@ Below are responses from various AI models to the above prompt:
 
 ### Large Language Model Responses
 - [Claude 3.7](responses/claude-3.7-ranking.md)
+- [Code Llama](responses/codellama-ranking.md)
+- [Gemma 3](responses/gemma-3-ranking.md)
+- [GitHub Copilot](responses/github-copilot-ranking.md)
 - [GPT 4.1](responses/gpt-4.1-ranking.md)
-- [Qwen 2.5 Coder](responses/qwen2.5-coder-ranking.md)
+- [Mistral](responses/mistral-ranking.md)
+- [Qwen 2.5 Coder](responses/qwen-2.5-coder-ranking.md)
+- [Qwen 3](responses/qwen-3-ranking.md)
 
 ### Resources
 - [Original Prompt](https://github.com/pbutland/ranking-algorithm/blob/main/_includes/ranking-prompt.md)
