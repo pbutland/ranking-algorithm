@@ -19,6 +19,7 @@ Below are responses from various AI models to the above prompt:
 ### Large Language Model Responses
 - [Claude 3.7](responses/claude-3.7-ranking.md)
 - [GPT 4.1](responses/gpt-4.1-ranking.md)
+- [Qwen 2.5 Coder](responses/qwen2.5-coder-ranking.md)
 
 ### Resources
 - [Original Prompt](https://github.com/pbutland/ranking-algorithm/blob/main/_includes/ranking-prompt.md)
