@@ -17,7 +17,8 @@ Below is the main prompt being used to explore how we might design ranking algor
 Below are responses from various AI models to the above prompt:
 
 ### Large Language Model Responses
-- [Claude 3.7 Response](responses/claude-3.7-ranking.md)
+- [Claude 3.7](responses/claude-3.7-ranking.md)
+- [GPT 4.1](responses/gpt-4.1-ranking.md)
 
 ### Resources
 - [Original Prompt](https://github.com/pbutland/ranking-algorithm/blob/main/_includes/ranking-prompt.md)
