@@ -16,6 +16,3 @@ highlighter: rouge
 # Include and exclude settings
 include:
   - README.md
-
-# Theme (optional - GitHub Pages default)
-theme: minima
