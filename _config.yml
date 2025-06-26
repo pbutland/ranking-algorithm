@@ -3,7 +3,6 @@ description: "Experimental research on ranking algorithms that prioritize social
 
 # GitHub Pages settings
 plugins:
-  - jekyll-default-layout
   - jekyll-optional-front-matter
   - jekyll-readme-index
   - jekyll-titles-from-headings
