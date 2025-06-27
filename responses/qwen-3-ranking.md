@@ -56,6 +56,7 @@ harmful even if it sparks important conversations.
 To rank content, the algorithm could use a **multi-criteria evaluation system** that assigns scores based on the following factors:
 
 ### **Positive Scoring Factors:**
+
 | Factor | Description |
 |-------|-------------|
 | **Empathy & Social Cohesion** | Content that promotes understanding, reduces prejudice, or fosters connection. |
@@ -66,6 +67,7 @@ To rank content, the algorithm could use a **multi-criteria evaluation system** 
 | **Justice & Inclusion** | Content that promotes equality, challenges discrimination, or supports marginalized communities. |
 
 ### **Negative Scoring Factors:**
+
 | Factor | Description |
 |-------|-------------|
 | **Harmful Influence** | Content that promotes violence, hate, or self-harm. |
