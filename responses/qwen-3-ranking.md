@@ -57,8 +57,8 @@ To rank content, the algorithm could use a **multi-criteria evaluation system** 
 
 ### **Positive Scoring Factors:**
 
-| Factor | Description |
-|-------|-------------|
+| Factor                        | Description                                                                    |
+|-------------------------------|--------------------------------------------------------------------------------|
 | **Empathy & Social Cohesion** | Content that promotes understanding, reduces prejudice, or fosters connection. |
 | **Educational Value** | Content that increases knowledge, encourages critical thinking, or provides actionable information. |
 | **Health & Well-being** | Content that supports mental and physical health, or promotes self-care and resilience. |
@@ -68,8 +68,8 @@ To rank content, the algorithm could use a **multi-criteria evaluation system** 
 
 ### **Negative Scoring Factors:**
 
-| Factor | Description |
-|-------|-------------|
+| Factor                        | Description                                 |
+|-------------------------------|---------------------------------------------|
 | **Harmful Influence** | Content that promotes violence, hate, or self-harm. |
 | **Misinformation** | Content that spreads false or misleading information. |
 | **Polarization** | Content that increases division, incites anger, or promotes tribalism. |
