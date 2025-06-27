@@ -6,11 +6,7 @@ This repository is an experimental space for developing and testing ranking algo
 
 Below is the main prompt being used to explore how we might design ranking algorithms that help humanity rather than maximize engagement:
 
----
-
-{% include ranking-prompt.md %}
-
----
+[Main Prompt](ranking-prompt.md)
 
 ## Model Responses
 
@@ -27,7 +23,6 @@ Below are responses from various AI models to the above prompt:
 - [Qwen 3](responses/qwen-3-ranking.md)
 
 ### Resources
-- [Original Prompt](https://github.com/pbutland/ranking-algorithm/blob/main/_includes/ranking-prompt.md)
 - [Project Overview](README.md)
 
 ## Purpose
