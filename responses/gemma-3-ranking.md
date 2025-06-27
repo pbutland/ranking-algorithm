@@ -19,9 +19,7 @@ dialogue around complex social issues.
 | Desired Outcome                | Potential Impact                                      | Reduced Negative Impact                               |
 |---------------------------------|------------------------------------------------------|------------------------------------------------------|
 | Increased Scientific Literacy    | More informed public discourse, better policy decisions | Reduced susceptibility to conspiracy theories.          
-|
 | Reduced Rates of Anxiety/Depression| Increased resilience, access to mental health resources | Less social comparison & FOMO, reduced pressure.      
-|
 | Stronger Community Bonds         | Increased civic engagement, support networks            | Reduced social isolation, increased trust.          |
 | Increased Support for Charities | Greater resources for impactful organizations       | More effective solutions to poverty & injustice.  |
 | Reduced Polarization             | More productive dialogue, greater common ground      | Less online harassment, increased understanding.      |
