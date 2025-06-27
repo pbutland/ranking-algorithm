@@ -1,7 +1,7 @@
 # Meta-Analysis: Social Media Ranking Algorithm Responses
 
 ## Introduction
-This meta-analysis synthesizes eight responses to the challenge of designing a social media ranking algorithm that prioritizes content based on its potential to "help humanity," as outlined in `ranking-prompt.md`. The analysis compares definitions, methodologies, and recommendations, highlighting common themes, unique insights, and areas of divergence.
+This meta-analysis synthesizes eight responses to the challenge of designing a social media ranking algorithm that prioritizes content based on its potential to "help humanity," as outlined in [ranking-prompt.md](../ranking-prompt.md). The analysis compares definitions, methodologies, and recommendations, highlighting common themes, unique insights, and areas of divergence.
 
 ## 1. Defining "Help Humanity"
 All responses converge on a broad, multi-dimensional definition of "helping humanity," emphasizing:
