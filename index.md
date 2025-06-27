@@ -22,6 +22,12 @@ Below are responses from various AI models to the above prompt:
 - [Qwen 2.5 Coder](responses/qwen-2.5-coder-ranking.md)
 - [Qwen 3](responses/qwen-3-ranking.md)
 
+#### Meta Analysis
+
+Analysis of all responses.
+
+[Meta Analysis](responses/meta-analysis.md)
+
 ### Resources
 - [Project Overview](README.md)
 
