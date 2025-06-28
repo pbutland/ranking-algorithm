@@ -13,20 +13,20 @@ Below is the main prompt being used to explore how we might design ranking algor
 Below are responses from various AI models to the above prompt:
 
 ### Large Language Model Responses
-- [Claude 3.7](responses/claude-3.7-ranking.md)
-- [Code Llama](responses/codellama-ranking.md)
-- [Gemma 3](responses/gemma-3-ranking.md)
-- [GitHub Copilot](responses/github-copilot-ranking.md)
-- [GPT 4.1](responses/gpt-4.1-ranking.md)
-- [Mistral](responses/mistral-ranking.md)
-- [Qwen 2.5 Coder](responses/qwen-2.5-coder-ranking.md)
-- [Qwen 3](responses/qwen-3-ranking.md)
+- [Claude 3.7](responses/overview/claude-3.7-ranking.md)
+- [Code Llama](responses/overview/codellama-ranking.md)
+- [Gemma 3](responses/overview/gemma-3-ranking.md)
+- [GitHub Copilot](responses/overview/github-copilot-ranking.md)
+- [GPT 4.1](responses/overview/gpt-4.1-ranking.md)
+- [Mistral](responses/overview/mistral-ranking.md)
+- [Qwen 2.5 Coder](responses/overview/qwen-2.5-coder-ranking.md)
+- [Qwen 3](responses/overview/qwen-3-ranking.md)
 
 #### Meta Analysis
 
 Analysis of all responses.
 
-[Meta Analysis](responses/meta-analysis.md)
+[Meta Analysis](responses/overview/meta-analysis.md)
 
 ### Resources
 - [Project Overview](README.md)
