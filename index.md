@@ -2,6 +2,24 @@
 
 This repository is an experimental space for developing and testing ranking algorithms that prioritize **social benefits** over traditional metrics like engagement, profit, or traffic.
 
+## Proof of Concept Implementation
+
+This project includes a working proof-of-concept (POC) system that compares responses from different large language models (LLMs) to social media posts.
+
+![POC Screenshot](images/screenshot.png)
+
+The POC consists of:
+
+- **Backend API Server**: Handles ingestion of social media posts, interfaces with multiple LLMs, and provides endpoints for comparing and ranking LLM responses.
+- **Front-End Webapp**: A user interface for submitting posts, viewing LLM responses side-by-side, and interacting with ranking results.
+
+The system allows you to:
+- Submit or select a social media post
+- Choose from a set of LLMs and evaluation prompts
+- View and compare the LLMs' responses and their rankings based on social benefit criteria
+
+See the respective `README.md` files in the `api/` and `app/` subdirectories for setup and usage details.
+
 ## The Challenge
 
 Below is the main prompt being used to explore how we might design ranking algorithms that help humanity rather than maximize engagement:
@@ -26,10 +44,10 @@ Below are responses from various AI models to the above prompt:
 
 Analysis of all responses.
 
-[Meta Analysis](responses/overview/meta-analysis.md)
+- [Meta Analysis](responses/overview/meta-analysis.md)
 
 ### Resources
-- [Project Overview](README.md)
+- [Project GitHub Repo](https://github.com/pbutland/ranking-algorithm)
 
 ## Purpose
 

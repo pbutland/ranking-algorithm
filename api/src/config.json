@@ -1,0 +1,10 @@
+{
+  "promptDir": "../../responses/impl",
+  "testPostsDir": "../test-posts",
+  "models": [
+    {
+      "name": "Ollama",
+      "baseUrl": "http://localhost:11434"
+    }
+  ]
+}

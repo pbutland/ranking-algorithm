@@ -29,3 +29,14 @@ Rather than optimizing for clicks, likes, or time-on-platform, we're exploring r
 ## Status
 
 This is an active research project. Ideas, contributions, and discussions are welcome as we explore how technology can better serve human flourishing.
+
+## Proof of Concept Implementation
+
+This repository includes a working proof-of-concept (POC) system that compares responses from different large language models (LLMs) to synthetic social media posts. The goal is to evaluate and rank these responses based on criteria that prioritize social benefit, such as constructiveness, factual accuracy, and community value.
+
+The POC consists of two main components:
+
+- **Backend API Server** (`api/`): Handles ingestion of social media posts, interfaces with multiple LLMs, and provides endpoints for comparing and ranking LLM responses.
+- **Front-End Webapp** (`app/`): A user interface for submitting posts, viewing LLM responses side-by-side, and interacting with ranking results.
+
+See the respective `README.md` files in each subdirectory for details on setup, configuration, and usage.

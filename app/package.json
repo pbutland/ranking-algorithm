@@ -1,0 +1,19 @@
+{
+  "name": "ranking-algorithm-poc",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "esbuild src/index.tsx --bundle --servedir=public --outfile=public/bundle.js --define:process.env.NODE_ENV='\"development\"' --define:API_BASE_URL='\"http://localhost:3001\"' --watch",
+    "build": "esbuild src/index.tsx --bundle --minify --outfile=public/bundle.js --define:process.env.NODE_ENV='\"production\"' --define:API_BASE_URL='\"http://localhost:3001\"'"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "esbuild": "^0.20.0",
+    "typescript": "^5.8.3"
+  }
+}

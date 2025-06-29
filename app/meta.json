@@ -1,0 +1,119 @@
+{
+  "inputs": {
+    "node_modules/react/cjs/react.development.js": {
+      "bytes": 87593,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/react/index.js": {
+      "bytes": 190,
+      "imports": [
+        {
+          "path": "node_modules/react/cjs/react.development.js",
+          "kind": "require-call",
+          "original": "./cjs/react.development.js"
+        }
+      ],
+      "format": "cjs"
+    },
+    "src/App.css": {
+      "bytes": 2239,
+      "imports": []
+    },
+    "node_modules/react/cjs/react-jsx-runtime.development.js": {
+      "bytes": 42700,
+      "imports": [
+        {
+          "path": "node_modules/react/index.js",
+          "kind": "require-call",
+          "original": "react"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/react/jsx-runtime.js": {
+      "bytes": 214,
+      "imports": [
+        {
+          "path": "node_modules/react/cjs/react-jsx-runtime.development.js",
+          "kind": "require-call",
+          "original": "./cjs/react-jsx-runtime.development.js"
+        }
+      ],
+      "format": "cjs"
+    },
+    "src/App.tsx": {
+      "bytes": 9497,
+      "imports": [
+        {
+          "path": "node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "src/App.css",
+          "kind": "import-statement",
+          "original": "./App.css"
+        },
+        {
+          "path": "node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    }
+  },
+  "outputs": {
+    "dist/App.js.map": {
+      "imports": [],
+      "exports": [],
+      "inputs": {},
+      "bytes": 203098
+    },
+    "dist/App.js": {
+      "imports": [],
+      "exports": [
+        "default"
+      ],
+      "entryPoint": "src/App.tsx",
+      "cssBundle": "dist/App.css",
+      "inputs": {
+        "node_modules/react/cjs/react.development.js": {
+          "bytesInOutput": 77054
+        },
+        "node_modules/react/index.js": {
+          "bytesInOutput": 227
+        },
+        "node_modules/react/cjs/react-jsx-runtime.development.js": {
+          "bytesInOutput": 36445
+        },
+        "node_modules/react/jsx-runtime.js": {
+          "bytesInOutput": 251
+        },
+        "src/App.tsx": {
+          "bytesInOutput": 10505
+        },
+        "src/App.css": {
+          "bytesInOutput": 0
+        }
+      },
+      "bytes": 126687
+    },
+    "dist/App.css.map": {
+      "imports": [],
+      "exports": [],
+      "inputs": {},
+      "bytes": 3905
+    },
+    "dist/App.css": {
+      "imports": [],
+      "inputs": {
+        "src/App.css": {
+          "bytesInOutput": 2166
+        }
+      },
+      "bytes": 2220
+    }
+  }
+}
