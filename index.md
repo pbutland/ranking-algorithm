@@ -62,3 +62,7 @@ See the respective `README.md` files in the `api/` and `app/` subdirectories for
 ## Status
 
 This is an active research project exploring how technology can better serve human flourishing rather than corporate profits.
+
+---
+
+There is also a related site dedicated to researching a recommendation algorithm? Visit the [Social Media Recommendation Algorithm Research](https://github.com/pbutland/recommendation-algorithm) repository.
