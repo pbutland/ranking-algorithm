@@ -54,7 +54,7 @@ app.get('/api/prompts', (req: Request, res: Response) => {
 app.post('/api/rate', async (req: Request, res: Response) => {
   try {
     const fetch = (await import('node-fetch')).default;
-    const { url, model, prompt, promptPrefix } = req.body;
+    const { url, model, prompt } = req.body;
     if (!url || !model || !prompt) {
       return res.status(400).json({ message: 'Missing url, model, or prompt in request body' });
     }
@@ -69,7 +69,6 @@ app.post('/api/rate', async (req: Request, res: Response) => {
       return res.status(400).json({ message: 'Prompt file not found', error: (err as Error).message });
     }
 
-    console.log(`Using prompt template: ${promptPath}`);
     // Fetch post content from url
     let postContent;
     try {
@@ -87,7 +86,6 @@ app.post('/api/rate', async (req: Request, res: Response) => {
       return res.status(400).json({ message: 'Failed to fetch post content', error: (err as Error).message });
     }
 
-    console.log('postContent', postContent);
     // Replace [Insert text here] in prompt template with post content
     const finalPrompt = promptTemplate.replace('[Insert text here]', postContent);
 
@@ -102,7 +100,8 @@ app.post('/api/rate', async (req: Request, res: Response) => {
       messages: [
         { role: 'user', content: finalPrompt }
       ],
-      stream: false
+      stream: false,
+      think: false
     };
     const ollamaRes = await fetch(chatUrl, {
       method: 'POST',

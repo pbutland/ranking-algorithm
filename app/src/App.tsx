@@ -22,7 +22,6 @@ export default function App() {
   const [error, setError] = useState("");
   const [postContent, setPostContent] = useState<string>("");
   const [cellStatus, setCellStatus] = useState<{ [prompt: string]: { [model: string]: string } }>({});
-  const [promptPrefix, setPromptPrefix] = useState<string>("");
   const [hasSubmitted, setHasSubmitted] = useState(false);
 
   useEffect(() => {
@@ -91,7 +90,7 @@ export default function App() {
           const resp = await fetch(`${API_BASE_URL}/api/rate`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ url: inputUrl, model, prompt, promptPrefix })
+            body: JSON.stringify({ url: inputUrl, model, prompt })
           });
           if (!resp.ok) {
             setResponses(prev => ({
@@ -201,35 +200,6 @@ export default function App() {
             {loading ? "Loading..." : "Submit"}
           </button>
         </form>
-        {/* Prompt prefix section */}
-        <div className="form-row">
-          <label htmlFor="prompt-prefix" className="form-label" style={{ display: 'flex', alignItems: 'center' }}>
-            Prompt prefix:
-            <span
-              style={{
-                display: 'inline-block',
-                marginLeft: 6,
-                cursor: 'pointer',
-                color: '#888',
-                fontSize: '1.1em',
-                lineHeight: 1
-              }}
-              title="This will be injected as additional prompt information for some models (e.g. /no_think for Qwen3)."
-              aria-label="Help: prompt prefix"
-            >
-              &#9432;
-            </span>
-          </label>
-          <input
-            id="prompt-prefix"
-            type="text"
-            value={promptPrefix || ""}
-            onChange={e => setPromptPrefix(e.target.value)}
-            placeholder="e.g. /no_think"
-            className="input-url"
-            style={{ marginRight: 0 }}
-          />
-        </div>
         {/* Models section */}
         <section className="models-section">
           <strong>Models:</strong>
