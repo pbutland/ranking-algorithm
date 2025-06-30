@@ -15,6 +15,7 @@ Below are responses from various AI models to the above prompt:
 ### Large Language Model Responses
 - [Claude 3.7](responses/overview/claude-3.7-ranking.md)
 - [Code Llama](responses/overview/codellama-ranking.md)
+- [DeepSeek R1](responses/overview/deepseek-r1-ranking.md)
 - [Gemma 3](responses/overview/gemma-3-ranking.md)
 - [GitHub Copilot](responses/overview/github-copilot-ranking.md)
 - [GPT 4.1](responses/overview/gpt-4.1-ranking.md)
@@ -45,7 +46,10 @@ Current social media platforms optimize for metrics that maximize user attention
 
 This project includes a working proof-of-concept (POC) system that compares responses from different large language models (LLMs) to social media posts.
 
-![POC Screenshot](images/screenshot.png)
+<div style="display: flex; gap: 10px;">
+  <img src="images/screenshot1.png" alt="POC Screenshot 1" style="width: 48%;">
+  <img src="images/screenshot2.png" alt="POC Screenshot 2" style="width: 48%;">
+</div>
 
 The POC consists of:
 
