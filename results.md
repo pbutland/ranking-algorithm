@@ -6,6 +6,9 @@ This is a threatening message. If you don't do what I say, there will be consequ
 ```
 
 <details open><summary>claude-3.7</summary>
+
+[Prompt](responses/impl/claude-3.7-generated-prompt.md)
+
 <pre><code>{
     "ranking": 15,
     "dimension_scores": {
@@ -38,6 +41,9 @@ This is a threatening message. If you don't do what I say, there will be consequ
 </details>
 
 <details open><summary>gemini-2.5-pro</summary>
+
+[Prompt](responses/impl/gemini-2.5-pro-generated-prompt.md)
+
 <pre><code>{
     "ranking": 5,
     "summary": "The post contains a direct and unspecified threat, warning of negative consequences if the author's demands are not met.",
@@ -54,6 +60,9 @@ This is a threatening message. If you don't do what I say, there will be consequ
 </details>
 
 <details open><summary>o4-mini</summary>
+
+[Prompt](responses/impl/o4-mini-generated-prompt.md)
+
 <pre><code>{
     "ranking": 0,
     "positiveImpactFactors": [],
@@ -82,6 +91,9 @@ I just finished reading a great book on critical thinking. Highly recommend it t
 ```
 
 <details open><summary>claude-3.7</summary>
+
+[Prompt](responses/impl/claude-3.7-generated-prompt.md)
+
 <pre><code>{
     "ranking": 65,
     "dimension_scores": {
@@ -117,6 +129,9 @@ I just finished reading a great book on critical thinking. Highly recommend it t
 </details>
 
 <details open><summary>gemini-2.5-pro</summary>
+
+[Prompt](responses/impl/gemini-2.5-pro-generated-prompt.md)
+
 <pre><code>{
     "ranking": 65,
     "summary": "A user states they have finished reading a great book on critical thinking and recommends it to everyone.",
@@ -134,6 +149,9 @@ I just finished reading a great book on critical thinking. Highly recommend it t
 </details>
 
 <details open><summary>o4-mini</summary>
+
+[Prompt](responses/impl/o4-mini-generated-prompt.md)
+
 <pre><code>{
     "ranking": 75,
     "positiveImpactFactors": [
