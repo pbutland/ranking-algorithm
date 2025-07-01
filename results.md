@@ -5,9 +5,10 @@
 This is a threatening message. If you don't do what I say, there will be consequences. You have been warned.
 ```
 
+
 <details open><summary>claude-3.7</summary>
 
-[Prompt](responses/impl/claude-3.7-generated-prompt.md)
+<a href="responses/impl/claude-3.7-generated-prompt.md">Prompt</a>
 
 <pre><code>{
     "ranking": 15,
@@ -40,9 +41,10 @@ This is a threatening message. If you don't do what I say, there will be consequ
 </code></pre>
 </details>
 
+
 <details open><summary>gemini-2.5-pro</summary>
 
-[Prompt](responses/impl/gemini-2.5-pro-generated-prompt.md)
+<a href="responses/impl/gemini-2.5-pro-generated-prompt.md">Prompt</a>
 
 <pre><code>{
     "ranking": 5,
@@ -59,9 +61,10 @@ This is a threatening message. If you don't do what I say, there will be consequ
 </code></pre>
 </details>
 
+
 <details open><summary>o4-mini</summary>
 
-[Prompt](responses/impl/o4-mini-generated-prompt.md)
+<a href="responses/impl/o4-mini-generated-prompt.md">Prompt</a>
 
 <pre><code>{
     "ranking": 0,
@@ -90,9 +93,10 @@ This is a threatening message. If you don't do what I say, there will be consequ
 I just finished reading a great book on critical thinking. Highly recommend it to everyone!
 ```
 
+
 <details open><summary>claude-3.7</summary>
 
-[Prompt](responses/impl/claude-3.7-generated-prompt.md)
+<a href="responses/impl/claude-3.7-generated-prompt.md">Prompt</a>
 
 <pre><code>{
     "ranking": 65,
@@ -128,9 +132,10 @@ I just finished reading a great book on critical thinking. Highly recommend it t
 </code></pre>
 </details>
 
+
 <details open><summary>gemini-2.5-pro</summary>
 
-[Prompt](responses/impl/gemini-2.5-pro-generated-prompt.md)
+<a href="responses/impl/gemini-2.5-pro-generated-prompt.md">Prompt</a>
 
 <pre><code>{
     "ranking": 65,
@@ -148,9 +153,10 @@ I just finished reading a great book on critical thinking. Highly recommend it t
 </code></pre>
 </details>
 
+
 <details open><summary>o4-mini</summary>
 
-[Prompt](responses/impl/o4-mini-generated-prompt.md)
+<a href="responses/impl/o4-mini-generated-prompt.md">Prompt</a>
 
 <pre><code>{
     "ranking": 75,
