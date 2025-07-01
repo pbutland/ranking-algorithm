@@ -5,7 +5,8 @@
 This is a threatening message. If you don't do what I say, there will be consequences. You have been warned.
 ```
 
-### claude-3.7
+<details open><summary>claude-3.7</summary>
+
 ```json
 {
   "ranking": 15,
@@ -36,8 +37,11 @@ This is a threatening message. If you don't do what I say, there will be consequ
   "confidence": 8
 }
 ```
+</details>
 
-### gemini-2.5-pro
+
+<details open><summary>gemini-2.5-pro</summary>
+
 ```json
 {
   "ranking": 5,
@@ -52,8 +56,11 @@ This is a threatening message. If you don't do what I say, there will be consequ
   "reasoning": "This post is actively harmful. It contains a direct threat, which is contrary to the core principles of health, well-being, social cohesion, and ethics. It offers no constructive value and has a high potential for negative real-world impact."
 }
 ```
+</details>
 
-### o4-mini
+
+<details open><summary>o4-mini</summary>
+
 ```json
 {
     "ranking": 0,
@@ -73,6 +80,7 @@ This is a threatening message. If you don't do what I say, there will be consequ
     ]
 }
 ```
+</details>
 
 # Post #8
 
@@ -81,7 +89,9 @@ This is a threatening message. If you don't do what I say, there will be consequ
 I just finished reading a great book on critical thinking. Highly recommend it to everyone!
 ```
 
-### claude-3.7
+
+<details open><summary>claude-3.7</summary>
+
 ```json
 {
   "ranking": 65,
@@ -116,8 +126,11 @@ I just finished reading a great book on critical thinking. Highly recommend it t
   "confidence": 7
 }
 ```
+</details>
 
-### gemini-2.5-pro
+
+<details open><summary>gemini-2.5-pro</summary>
+
 ```json
 {
   "ranking": 65,
@@ -133,8 +146,11 @@ I just finished reading a great book on critical thinking. Highly recommend it t
   "reasoning": "The post is generally positive as it promotes critical thinking, a key component of 'Truth & Knowledge' and 'Empowerment & Agency'. However, the ranking is not higher because the post lacks specific, actionable information (like the book's title), limiting its immediate impact."
 }
 ```
+</details>
 
-### o4-mini
+
+<details open><summary>o4-mini</summary>
+
 ```json
 {
     "ranking": 75,
@@ -155,3 +171,4 @@ I just finished reading a great book on critical thinking. Highly recommend it t
     ]
 }
 ```
+</details>
