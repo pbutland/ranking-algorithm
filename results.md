@@ -62,6 +62,31 @@ This is a threatening message. If you don't do what I say, there will be consequ
 </details>
 
 
+<details open><summary>gpt-4.1-pro</summary>
+
+<a href="responses/impl/gpt-4.1-generated-prompt.md">Prompt</a>
+
+<pre><code>{
+    "ranking": 2,
+    "summary": "The content is threatening and may cause fear or distress. It does not promote positive values or contribute constructively to society.",
+    "badges": [
+        "violent",
+        "age_restricted",
+        "harmful"
+    ],
+    "age_restriction": 18,
+    "positives": [],
+    "negatives": [
+        "Threatening language",
+        "Potential to cause harm or fear",
+        "No educational or constructive value",
+        "Undermines social cohesion and safety"
+    ]
+}
+</code></pre>
+</details>
+
+
 <details open><summary>o4-mini</summary>
 
 <a href="responses/impl/o4-mini-generated-prompt.md">Prompt</a>
@@ -149,6 +174,29 @@ I just finished reading a great book on critical thinking. Highly recommend it t
         "Inspires Action"
     ],
     "reasoning": "The post is generally positive as it promotes critical thinking, a key component of 'Truth & Knowledge' and 'Empowerment & Agency'. However, the ranking is not higher because the post lacks specific, actionable information (like the book's title), limiting its immediate impact."
+}
+</code></pre>
+</details>
+
+
+<details open><summary>gpt-4.1</summary>
+
+<a href="responses/impl/gpt-4.1-generated-prompt.md">Prompt</a>
+
+<pre><code>{
+    "ranking": 92,
+    "summary": "Encourages education and critical thinking, promotes positive engagement.",
+    "badges": [
+        "inspirational",
+        "educational"
+    ],
+    "age_restriction": 0,
+    "positives": [
+        "Promotes critical thinking",
+        "Encourages reading",
+        "Positive and inclusive"
+    ],
+    "negatives": []
 }
 </code></pre>
 </details>

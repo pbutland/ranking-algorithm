@@ -1,0 +1,17 @@
+{
+    "ranking": 2,
+    "summary": "The content is threatening and may cause fear or distress. It does not promote positive values or contribute constructively to society.",
+    "badges": [
+        "violent",
+        "age_restricted",
+        "harmful"
+    ],
+    "age_restriction": 18,
+    "positives": [],
+    "negatives": [
+        "Threatening language",
+        "Potential to cause harm or fear",
+        "No educational or constructive value",
+        "Undermines social cohesion and safety"
+    ]
+}
