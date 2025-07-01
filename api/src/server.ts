@@ -86,8 +86,8 @@ app.post('/api/rate', async (req: Request, res: Response) => {
       return res.status(400).json({ message: 'Failed to fetch post content', error: (err as Error).message });
     }
 
-    // Replace [Insert text here] in prompt template with post content
-    const finalPrompt = promptTemplate.replace('[Insert text here]', postContent);
+    // Replace [INSERT_SOCIAL_MEDIA_POST_TEXT_HERE] in prompt template with post content
+    const finalPrompt = promptTemplate.replace('[INSERT_SOCIAL_MEDIA_POST_TEXT_HERE]', postContent);
 
     // Call Ollama chat endpoint
     const ollamaModel = config.models.find((m: any) => m.name === 'Ollama');

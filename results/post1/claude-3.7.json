@@ -1,0 +1,28 @@
+{
+  "ranking": 15,
+  "dimension_scores": {
+    "knowledge_truth": 2,
+    "wellbeing_impact": 3,
+    "social_cohesion": 2,
+    "individual_agency": 3,
+    "long_term_value": 2,
+    "integrity_ethics": 3
+  },
+  "content_type": "other",
+  "topics": [
+    "threat",
+    "intimidation",
+    "coercion"
+  ],
+  "potential_benefits": [
+    "None identified"
+  ],
+  "potential_harms": [
+    "Creates fear and anxiety",
+    "Establishes harmful power dynamic",
+    "May lead to compliance with harmful requests",
+    "Contributes to hostile communication environment"
+  ],
+  "reasoning": "This post contains an explicit threat without any context or justification. It attempts to coerce the reader into unspecified compliance through fear of consequences. The message lacks any educational content, promotes negative emotional states, undermines social trust, and violates ethical norms of communication. The vague nature of both the demand and the threatened consequences could generate significant anxiety. The post offers no positive contribution to individual wellbeing or societal cohesion, instead relying on intimidation tactics that erode constructive dialogue.",
+  "confidence": 8
+}

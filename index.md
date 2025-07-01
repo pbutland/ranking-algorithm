@@ -46,7 +46,17 @@ Current social media platforms optimize for metrics that maximize user attention
 
 This project includes a working proof-of-concept (POC) system that compares responses from different large language models (LLMs) to social media posts.
 
-<div style="display: flex; gap: 10px;">
+<style>
+  @media (max-width: 700px) {
+    .poc-screenshots {
+      flex-direction: column !important;
+    }
+    .poc-screenshots img {
+      width: 100% !important;
+    }
+  }
+</style>
+<div class="poc-screenshots" style="display: flex; gap: 10px;">
   <img src="images/screenshot1.png" alt="POC Screenshot 1" style="width: 48%;">
   <img src="images/screenshot2.png" alt="POC Screenshot 2" style="width: 48%;">
 </div>

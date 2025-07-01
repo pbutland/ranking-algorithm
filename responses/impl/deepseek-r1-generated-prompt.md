@@ -72,7 +72,7 @@ discussion.
 
 ## Content to Analyze
 Here is the social media post you are to evaluate:
-`[Insert text here]`
+`[INSERT_SOCIAL_MEDIA_POST_TEXT_HERE]`
 
 Remember: The ranking should be based *solely* on this definition and reasoning process, prioritizing human benefit over engagement metrics. Return 
 only the JSON object.

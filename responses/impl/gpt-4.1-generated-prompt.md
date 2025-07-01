@@ -45,5 +45,5 @@ Example response:
 
 Text to rate:
 ---
-[Insert text here]
+[INSERT_SOCIAL_MEDIA_POST_TEXT_HERE]
 ---

@@ -1,0 +1,17 @@
+{
+    "ranking": 0,
+    "positiveImpactFactors": [],
+    "negativeImpactRisks": [
+        "threatening language",
+        "incitement of fear"
+    ],
+    "summary": "The post contains direct threats and intimidation, which is harmful and unhelpful.",
+    "ageRestricted": true,
+    "isPolitical": false,
+    "includesHateSpeech": false,
+    "isEducational": false,
+    "topics": [
+        "violence",
+        "harassment"
+    ]
+}
