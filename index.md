@@ -73,6 +73,14 @@ The system allows you to:
 
 See the respective `README.md` files in the `api/` and `app/` subdirectories for setup and usage details.
 
+## Results
+
+Results from the POC are available in the [results.md](results.md) file, which includes:
+- Rankings of social media posts by different LLMs
+- Dimension scores for each post, such as knowledge truth, wellbeing impact, social cohesion
+- Potential benefits and harms identified by each model
+- Reasoning behind each model's evaluation
+
 ## Status
 
 This is an active research project exploring how technology can better serve human flourishing rather than corporate profits.
