@@ -1,0 +1,30 @@
+{
+    "ranking": 58,
+    "confidence": 75,
+    "summary": "Positive educational recommendation promoting critical thinking skills, but lacks specificity and actionable details that would maximize its impact.",
+    "impact_dimensions": {
+        "knowledge_truth": 70,
+        "wellbeing_health": 45,
+        "social_cohesion": 50,
+        "civic_engagement": 55,
+        "sustainability": 35,
+        "safety": 80
+    },
+    "content_tags": [
+        "educational",
+        "book_recommendation",
+        "critical_thinking",
+        "vague"
+    ],
+    "risk_flags": [],
+    "age_appropriateness": 0,
+    "authenticity_score": 75,
+    "actionability": 25,
+    "evidence_quality": 20,
+    "potential_reach_benefit": 65,
+    "time_sensitivity": "low",
+    "recommended_actions": [
+        "add_context",
+        "request_specifics"
+    ]
+}

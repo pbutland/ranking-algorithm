@@ -1,0 +1,16 @@
+{
+    "ranking": 0,
+    "summary": "The post contains threatening language and poses a risk to safety and social cohesion.",
+    "positives": [],
+    "negatives": [
+        "Threatening tone",
+        "Incitement to fear",
+        "Potential harm to mental health"
+    ],
+    "badges": [
+        "harmful",
+        "unsafe"
+    ],
+    "age_restriction": 18,
+    "reasoning_explanation": "The post fails to align with the goal of helping humanity as it uses threatening language, which undermines safety, empathy, and constructive dialogue. It poses risks to mental health and social cohesion."
+}

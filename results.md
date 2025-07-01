@@ -1,3 +1,9 @@
+# Result Analysis
+
+The following page analyses and compares the results (found below) of the ranking prompts across different AI models.
+
+[Results Analysis](results/results-analysis.md)
+
 # Post #1
 
 ### Content
@@ -42,6 +48,51 @@ This is a threatening message. If you don't do what I say, there will be consequ
 </details>
 
 
+<details open><summary>claude-4</summary>
+
+<a href="responses/impl/claude-4-generated-prompt.md">Prompt</a>
+
+<pre><code>{
+    "ranking": 2,
+    "confidence": 95,
+    "summary": "Clear threatening message that creates fear and promotes harmful behavior with no positive value to humanity.",
+    "impact_dimensions": {
+        "knowledge_truth": 10,
+        "wellbeing_health": 5,
+        "social_cohesion": 5,
+        "civic_engagement": 10,
+        "sustainability": 15,
+        "safety": 0
+    },
+    "content_tags": [
+        "threatening",
+        "harmful",
+        "intimidation",
+        "aggressive"
+    ],
+    "risk_flags": [
+        "threatening_language",
+        "potential_harassment",
+        "psychological_harm",
+        "age_inappropriate"
+    ],
+    "age_appropriateness": 18,
+    "authenticity_score": 85,
+    "actionability": 20,
+    "evidence_quality": 0,
+    "potential_reach_benefit": 0,
+    "time_sensitivity": "high",
+    "recommended_actions": [
+        "restrict_reach",
+        "flag_for_review",
+        "potential_removal",
+        "user_warning"
+    ]
+}
+</code></pre>
+</details>
+
+
 <details open><summary>gemini-2.5-pro</summary>
 
 <a href="responses/impl/gemini-2.5-pro-generated-prompt.md">Prompt</a>
@@ -62,7 +113,7 @@ This is a threatening message. If you don't do what I say, there will be consequ
 </details>
 
 
-<details open><summary>gpt-4.1-pro</summary>
+<details open><summary>gpt-4.1</summary>
 
 <a href="responses/impl/gpt-4.1-generated-prompt.md">Prompt</a>
 
@@ -82,6 +133,30 @@ This is a threatening message. If you don't do what I say, there will be consequ
         "No educational or constructive value",
         "Undermines social cohesion and safety"
     ]
+}
+</code></pre>
+</details>
+
+
+<details open><summary>gpt-4o</summary>
+
+<a href="responses/impl/gpt-4o-generated-prompt.md">Prompt</a>
+
+<pre><code>{
+    "ranking": 0,
+    "summary": "The post contains threatening language and poses a risk to safety and social cohesion.",
+    "positives": [],
+    "negatives": [
+        "Threatening tone",
+        "Incitement to fear",
+        "Potential harm to mental health"
+    ],
+    "badges": [
+        "harmful",
+        "unsafe"
+    ],
+    "age_restriction": 18,
+    "reasoning_explanation": "The post fails to align with the goal of helping humanity as it uses threatening language, which undermines safety, empathy, and constructive dialogue. It poses risks to mental health and social cohesion."
 }
 </code></pre>
 </details>
@@ -158,6 +233,44 @@ I just finished reading a great book on critical thinking. Highly recommend it t
 </details>
 
 
+<details open><summary>claude-4</summary>
+
+<a href="responses/impl/claude-4-generated-prompt.md">Prompt</a>
+
+<pre><code>{
+    "ranking": 58,
+    "confidence": 75,
+    "summary": "Positive educational recommendation promoting critical thinking skills, but lacks specificity and actionable details that would maximize its impact.",
+    "impact_dimensions": {
+        "knowledge_truth": 70,
+        "wellbeing_health": 45,
+        "social_cohesion": 50,
+        "civic_engagement": 55,
+        "sustainability": 35,
+        "safety": 80
+    },
+    "content_tags": [
+        "educational",
+        "book_recommendation",
+        "critical_thinking",
+        "vague"
+    ],
+    "risk_flags": [],
+    "age_appropriateness": 0,
+    "authenticity_score": 75,
+    "actionability": 25,
+    "evidence_quality": 20,
+    "potential_reach_benefit": 65,
+    "time_sensitivity": "low",
+    "recommended_actions": [
+        "add_context",
+        "request_specifics"
+    ]
+}
+</code></pre>
+</details>
+
+
 <details open><summary>gemini-2.5-pro</summary>
 
 <a href="responses/impl/gemini-2.5-pro-generated-prompt.md">Prompt</a>
@@ -197,6 +310,30 @@ I just finished reading a great book on critical thinking. Highly recommend it t
         "Positive and inclusive"
     ],
     "negatives": []
+}
+</code></pre>
+</details>
+
+
+<details open><summary>gpt-4o</summary>
+
+<a href="results/post1/gpt-4o.json">Prompt</a>
+
+<pre><code>{
+    "ranking": 92,
+    "summary": "Promotes critical thinking and education, with no apparent risks or negative outcomes.",
+    "positives": [
+        "Encourages education",
+        "Promotes critical thinking",
+        "Constructive and inclusive"
+    ],
+    "negatives": [],
+    "badges": [
+        "educational",
+        "inspirational"
+    ],
+    "age_restriction": 0,
+    "reasoning_explanation": "The post aligns strongly with the goal of helping humanity by encouraging critical thinking and education, which are essential for informed decision-making and personal growth. It is constructive, inclusive, and free from any harmful content."
 }
 </code></pre>
 </details>

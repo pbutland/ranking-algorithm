@@ -1,0 +1,37 @@
+{
+    "ranking": 2,
+    "confidence": 95,
+    "summary": "Clear threatening message that creates fear and promotes harmful behavior with no positive value to humanity.",
+    "impact_dimensions": {
+        "knowledge_truth": 10,
+        "wellbeing_health": 5,
+        "social_cohesion": 5,
+        "civic_engagement": 10,
+        "sustainability": 15,
+        "safety": 0
+    },
+    "content_tags": [
+        "threatening",
+        "harmful",
+        "intimidation",
+        "aggressive"
+    ],
+    "risk_flags": [
+        "threatening_language",
+        "potential_harassment",
+        "psychological_harm",
+        "age_inappropriate"
+    ],
+    "age_appropriateness": 18,
+    "authenticity_score": 85,
+    "actionability": 20,
+    "evidence_quality": 0,
+    "potential_reach_benefit": 0,
+    "time_sensitivity": "high",
+    "recommended_actions": [
+        "restrict_reach",
+        "flag_for_review",
+        "potential_removal",
+        "user_warning"
+    ]
+}
