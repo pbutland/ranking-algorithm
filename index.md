@@ -14,12 +14,16 @@ Below are responses from various AI models to the above prompt:
 
 ### Large Language Model Responses
 - [Claude 3.7](responses/overview/claude-3.7-ranking.md)
+- [Claude 4](responses/overview/claude-4-ranking.md)
 - [Code Llama](responses/overview/codellama-ranking.md)
 - [DeepSeek R1](responses/overview/deepseek-r1-ranking.md)
+- [Gemini 2.5 Pro](responses/overview/gemini-2.5-pro-ranking.md)
 - [Gemma 3](responses/overview/gemma-3-ranking.md)
 - [GitHub Copilot](responses/overview/github-copilot-ranking.md)
 - [GPT 4.1](responses/overview/gpt-4.1-ranking.md)
+- [GPT 4o](responses/overview/gpt-4o-ranking.md)
 - [Mistral](responses/overview/mistral-ranking.md)
+- [O4 Mini](responses/overview/o4-mini-ranking.md)
 - [Qwen 2.5 Coder](responses/overview/qwen-2.5-coder-ranking.md)
 - [Qwen 3](responses/overview/qwen-3-ranking.md)
 
